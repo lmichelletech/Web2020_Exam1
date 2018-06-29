@@ -1,0 +1,151 @@
+Q1: Describe the simplest CSS changes required to create the following layout using flexbox properties:
+
+Answer: See q1.html
+.cont{
+    background-color: black;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+Q2: Describe the simplest CSS changes required to create the following layout using flexbox properties:
+
+Answer: See q2.html
+.cont {
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-bottom: auto;
+}
+
+Q3: Describe the simplest CSS changes required to create the following layout using flexbox properties:
+
+Answer: See q3.html
+
+.cont {
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-bottom: auto;
+}
+
+Q4: Describe the simplest CSS changes required to create the following layout using flexbox properties:
+
+Answer:
+.cont{
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+  }
+
+  Q5: (Hint, give the container a height of 300px) Describe the simplest CSS changes required to create 
+  the following layout using flexbox properties:
+  
+  Answer:
+
+  .cont{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+   }
+  .box:first-child {
+    align-self: flex-end;
+   }
+
+Q6: (Hint, give the container a height of 300px) Describe the simplest CSS changes required to create the 
+following layout using flexbox properties:
+
+Answer:
+.cont{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+}
+.box:first-child {
+    align-self: flex-end;
+}
+
+Q7: Describe the simplest CSS changes required to create the following layout using flexbox properties:
+
+Answer:
+.cont{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+}
+
+Q8: (Hint: requires the flex-grow or flex shorthand property) Describe the simplest CSS changes required to create the 
+following layout using flexbox properties:
+
+Answer:
+.cont{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    flex-grow: 2;
+}
